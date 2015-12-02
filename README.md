@@ -4,4 +4,11 @@ Opal wrapper for [airbrake-js](https://github.com/airbrake/airbrake-js) javascri
 
 ## usage
 
-TBD
+```ruby
+Airbrake.new({
+  project_id: 'xxx',
+  project_key: 'yyy'
+})
+```
+
+And that is it :)
